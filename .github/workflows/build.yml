@@ -14,7 +14,7 @@ jobs:
           app: work-search
           app_configuration: ./app-configuration.ttl
           debug: 1
-          spreadsheet_id: 1j2oaMvMxY4pnXO-sEH_fky2R2gm6TQeIev_Q8rVOD4M
+          spreadsheet: https://docs.google.com/spreadsheets/d/1slGfzsUmfhSB08ZaeojQbXJOETkB3epox-X4iaSKGfU/edit#gid=485126336
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
   deploy:
